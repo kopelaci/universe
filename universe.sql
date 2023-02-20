@@ -16,17 +16,17 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE universe;
+DROP DATABASE se;
 --
--- Name: universe; Type: DATABASE; Schema: -; Owner: freecodecamp
+-- Name: se; Type: DATABASE; Schema: -; Owner: freecodecamp
 --
 
-CREATE DATABASE universe WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C.UTF-8' LC_CTYPE = 'C.UTF-8';
+CREATE DATABASE se WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'C.UTF-8' LC_CTYPE = 'C.UTF-8';
 
 
-ALTER DATABASE universe OWNER TO freecodecamp;
+ALTER DATABASE se OWNER TO freecodecamp;
 
-\connect universe
+\connect se
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
